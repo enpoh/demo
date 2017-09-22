@@ -9,7 +9,18 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/ja_KS/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 
+  </script>
   <div id="header">
     <div class="container">
       <!--      <div id="main">-->
@@ -47,16 +58,16 @@
           <img src="profile.jpg" alt="" width="150">
           <div class="caption">
             <h2>this is a website</h2>
-            <h3>for practice</h3>
+            <h3>for practice!</h3>
           </div>
         </div>
 
 
         <div class="right-box">
           <h2>hello!</h2>
-          <p>Enho Hayashi<br> - Student
+          <p>Enho Hayashi<br> - <strong>Student</strong>
             <br> - Designer
-            <br> - Pink Lover<br>
+            <br> - <span>Pink Lover</span><br>
           </p>
           <a href="https://www.facebook.com/enhohayashi" class="fbbutton"> Facebook</a>
           <span class="edge edge1"></span>
@@ -70,11 +81,25 @@
       <div class="content" id="contents2">
         <h1 class="top-title">♡</h1>
         <div class="right-box">
-          <h2>Nice to meet you!</h2>
-          <p>favolites<br> - Filming
+          <h2>Nice to meet you </h2>
+          <p>favolites<br> <strong>- Filming</strong>
             <br> - Designing
             <br> - High fashion<br>
           </p>
+        </div>
+
+        <div class="content" id="contents4">
+          <h1 class="top-title">favorite place</h1>
+          <div class="left-box">
+            <h2>Opening Ceremony</h2>
+            <p>お気に入りのセレクトショップです。<br> TOGAの靴を買ってみたいです。
+            </p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4032.3197347565356!2d139.70443416578811!3d35.6675369851462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca408b47643%3A0x64c0f5ce5964ce44!2sOPENING+CEREMONY+TOKYO+-+OMOTESANDO!5e0!3m2!1sja!2sjp!4v1506009831828" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+          <div class="fb-like" data-href="https://www.facebook.com/enhohayashi" data-width="200" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
         </div>
 
         <div class="animation2">

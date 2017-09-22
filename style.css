@@ -108,6 +108,10 @@ nav a:hover {
   font-size: 13px;
 }
 
+p {
+  line-height: 2;
+}
+
 #contents1 .animation1 .caption h3 {
   color: white;
   font-size: 15px;
@@ -185,6 +189,10 @@ nav a:hover {
   transform: translateX(25%);
 }
 
+#contents4 {
+  float: left;
+}
+
 #contents2 .animation2 img {
   -webkit-transform: transform 0.4s;
   -o-transform: transform 0.4s;
@@ -252,7 +260,7 @@ a {
   font-size: 8px;
   padding: 5px 10px;
   background: #fffafa;
-  color: #ffb6c1;
+  color: #ffb6c2;
   border: 2px solid #ffb6c1;
   text-decoration: none;
 }
